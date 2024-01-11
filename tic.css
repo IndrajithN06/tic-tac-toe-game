@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(25, 27, 13);
+}
+
+.tic-tac-box{
+    height: 25rem;
+    width: 21rem;
+    /* border: 2px solid red; */
+   padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 5rem;
+ 
+  
+}
+h1{
+    /* border: 2px solid green; */
+    text-align: center;
+    height: 5rem;
+    padding-top: 1rem;
+    color: antiquewhite;
+   
+}
+.row{
+    height: 6.5rem;
+    width: 20rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-left: 0.5rem;
+}
+.cell{
+    height: 6.1rem;
+    width: 6.6rem;
+    border: 5px solid rgb(68, 192, 49);
+    border-radius: 3px ;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D24545;
+
+}
+.result{
+  color: rgb(22, 226, 39);
+  text-align: center;
+
+}
